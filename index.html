@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renovação de Contrato de Amizade 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Contrato de Renovação de Amizade 2026</h1>
+        <div class="contract-content">
+            <p>Eu, <input type="text" id="yourName" placeholder="Seu Nome">, concordo em renovar minha amizade por mais um ano, com Kellyson.</p>
+            <p>Este contrato é válido até 31 de dezembro de 2026.</p>
+            <p>Assinado em: <span id="currentDate"></span></p>
+            <div class="signature-section">
+                <p>Assinatura:</p>
+                <input type="text" id="signatureInput" placeholder="Escreva aqui">
+                <div id="signaturePreview"></div>
+            </div>
+        </div>
+        <button id="renewButton">Renovar Amizade</button>
+        <div id="gifContainer"></div>
+    </div>
+    <audio id="celebrationMusic" style="display: none">
+        <source src="https://assets.mixkit.co/music/preview/mixkit-happy-celebration-12.mp3" type="audio/mp3">
+    </audio>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
